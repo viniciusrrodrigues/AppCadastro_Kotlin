@@ -48,7 +48,8 @@ class MainActivity : ComponentActivity() {
 
  @Composable
 fun Cadastro(){
-     var text by remember { mutableStateOf("") }
+
+
     Column (
         Modifier
             .background(Color.Blue)
@@ -73,6 +74,8 @@ fun Cadastro(){
      Row(Modifier.
      fillMaxWidth(),
          Arrangement.Center){
+         var text by remember { mutableStateOf("") }
+
          TextField(
              value = text,
              onValueChange = {
@@ -86,6 +89,7 @@ fun Cadastro(){
         Row(Modifier.
         fillMaxWidth(),
             Arrangement.Center){
+            var text by remember { mutableStateOf("") }
             TextField(
                 value = text,
                 onValueChange = {
@@ -99,6 +103,7 @@ fun Cadastro(){
         Row(Modifier.
         fillMaxWidth(),
             Arrangement.Center){
+            var text by remember { mutableStateOf("") }
             TextField(
                 value = text,
                 onValueChange = {
@@ -112,6 +117,7 @@ fun Cadastro(){
         Row(Modifier.
         fillMaxWidth(),
             Arrangement.Center){
+            var text by remember { mutableStateOf("") }
             TextField(
                 value = text,
                 onValueChange = {
@@ -125,6 +131,7 @@ fun Cadastro(){
         Row(Modifier.
         fillMaxWidth(),
             Arrangement.Center){
+            var text by remember { mutableStateOf("") }
             TextField(
                 value = text,
                 onValueChange = {
@@ -138,6 +145,7 @@ fun Cadastro(){
         Row(Modifier.
         fillMaxWidth(),
             Arrangement.Center){
+            var text by remember { mutableStateOf("") }
             TextField(
                 value = text,
                 onValueChange = {
